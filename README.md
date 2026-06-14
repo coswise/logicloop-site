@@ -1,1 +1,10 @@
-IyBMb2dpY0xvb3AgU2l0ZQoKUHVibGljIHdlYnNpdGUgZm9yIExvZ2ljTG9vcCDigJQgZGV2ZWxvcGVyIG9mICoqMjM1NzogUHJpbWUgTnVtYmVyIFB1enpsZSoqLgoKSG9zdGVkIHZpYSBHaXRIdWIgUGFnZXMuCgojIyBQYWdlcwoKLSBgL2AgIOKAlCBBcHAgbGFuZGluZyBwYWdlCi0gYC9wcml2YWN5LXBvbGljeS5odG1sYCDigJQgUHJpdmFjeSBwb2xpY3kgKHJlcXVpcmVkIGZvciBHb29nbGUgUGxheSBTdG9yZSkK
+# LogicLoop Site
+
+Public website for LogicLoop — developer of **2357: Prime Number Puzzle**.
+
+**https://coswise.github.io/logicloop-site/**
+
+## Pages
+
+- `/` — App landing page
+- `/privacy-policy.html` — Privacy policy (required for Google Play Store)
