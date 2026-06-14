@@ -6,112 +6,156 @@
   <title>Privacy Policy &mdash; 2357: Prime Number Puzzle</title>
   <meta name="description" content="Privacy policy for 2357: Prime Number Puzzle by LogicLoop.">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
 </head>
 <body>
 
 <header>
-  <div class="header-inner">
-    <a class="logo" href="./">
-      <span class="logo-digits"><span>2</span><span>3</span><span>5</span><span>7</span></span>
-      &nbsp;LogicLoop
-    </a>
-    <nav>
-      <a href="./">Home</a>
-    </nav>
+  <div class="wrap">
+    <div class="header-inner">
+      <a class="logo" href="./">
+        <div class="logo-digits"><span class="d2">2</span><span class="d3">3</span><span class="d5">5</span><span class="d7">7</span></div>
+        <span class="logo-name">LogicLoop</span>
+      </a>
+      <nav>
+        <a href="./"><i class="ph ph-house"></i> Home</a>
+      </nav>
+    </div>
   </div>
 </header>
 
 <main>
-  <h1 class="page-title">Privacy Policy</h1>
-  <p class="page-meta">
-    App: <strong>2357: Prime Number Puzzle</strong> &nbsp;&middot;&nbsp;
-    Developer: <strong>LogicLoop</strong> &nbsp;&middot;&nbsp;
-    Last updated: <strong>June 2026</strong>
-  </p>
+  <div class="wrap">
 
-  <section class="policy-section">
-    <h2>What we collect</h2>
-    <h3>Anonymous identifier</h3>
-    <p>When you first open the app, a random anonymous ID is created using Firebase Anonymous Authentication. This ID is not linked to your name, email, or any personal information. It is used solely to associate your scores with your account on the leaderboard.</p>
-    <h3>Gameplay analytics</h3>
-    <p>We collect anonymised events about how the app is used, including:</p>
-    <ul>
-      <li>Which game modes you play</li>
-      <li>Game session scores, duration, and difficulty reached</li>
-      <li>Settings you change (sound, haptics, guided mode)</li>
-      <li>Screen navigation (which screens you visit)</li>
-    </ul>
-    <p>This data is collected via Firebase Analytics and is used only to understand how people use the app so we can improve it.</p>
-    <h3>Leaderboard data</h3>
-    <p>If you set a username inside the app, that username and your weekly score are stored on our Firebase servers in order to display the group leaderboard. You choose your own username &mdash; do not use your real name if you prefer to stay anonymous.</p>
-  </section>
+    <div class="policy-hero">
+      <h1 class="policy-title">Privacy Policy</h1>
+      <p class="policy-meta">
+        2357: Prime Number Puzzle
+        <span>&middot;</span>
+        LogicLoop
+        <span>&middot;</span>
+        Last updated June 2026
+      </p>
+    </div>
 
-  <section class="policy-section">
-    <h2>What we do NOT collect</h2>
-    <ul>
-      <li>Your name, email address, or phone number</li>
-      <li>Your location</li>
-      <li>Your contacts or photos</li>
-      <li>Payment information</li>
-      <li>Any data from other apps</li>
-    </ul>
-  </section>
+    <div class="policy-body">
 
-  <section class="policy-section">
-    <h2>Third-party services</h2>
-    <table class="policy-table">
-      <tr><th>Service</th><th>Purpose</th><th>Privacy policy</th></tr>
-      <tr>
-        <td>Google Firebase (Firestore)</td>
-        <td>Leaderboard data storage</td>
-        <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></td>
-      </tr>
-      <tr>
-        <td>Google Firebase Analytics</td>
-        <td>Anonymous usage analytics</td>
-        <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></td>
-      </tr>
-      <tr>
-        <td>Google Firebase Authentication</td>
-        <td>Anonymous user session</td>
-        <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></td>
-      </tr>
-    </table>
-    <p>All Firebase services are operated by Google LLC under their privacy terms.</p>
-  </section>
+      <!-- What we collect -->
+      <section class="policy-section">
+        <p class="policy-section-title"><i class="ph ph-database"></i> What we collect</p>
 
-  <section class="policy-section">
-    <h2>Data retention</h2>
-    <ul>
-      <li>Leaderboard scores are reset weekly.</li>
-      <li>Analytics data is retained for 14 months (Google default).</li>
-      <li>Anonymous authentication tokens persist until you uninstall the app.</li>
-    </ul>
-  </section>
+        <h3 class="policy-h3">Anonymous identifier</h3>
+        <p class="policy-p">When you first open the app, a random anonymous ID is created using Firebase Anonymous Authentication. This ID is not linked to your name, email, or any personal information. It is used solely to associate your scores with your account on the leaderboard.</p>
 
-  <section class="policy-section">
-    <h2>Your rights</h2>
-    <p>You can delete all your data at any time by uninstalling the app. Because we only store an anonymous ID (not your identity), we cannot fulfil data subject requests by name &mdash; but uninstalling removes your local device data and your anonymous leaderboard entry will expire within one weekly reset cycle.</p>
-  </section>
+        <h3 class="policy-h3">Gameplay analytics</h3>
+        <p class="policy-p">We collect anonymised events about how the app is used, including:</p>
+        <ul class="policy-list collect">
+          <li><i class="ph ph-dot-outline"></i> Which game modes you play</li>
+          <li><i class="ph ph-dot-outline"></i> Game session scores, duration, and difficulty reached</li>
+          <li><i class="ph ph-dot-outline"></i> Settings you change (sound, haptics, guided mode)</li>
+          <li><i class="ph ph-dot-outline"></i> Screen navigation (which screens you visit)</li>
+        </ul>
+        <p class="policy-p" style="margin-top:14px">This data is collected via Firebase Analytics and is used only to understand how people use the app so we can improve it.</p>
 
-  <section class="policy-section">
-    <h2>Children</h2>
-    <p>This app does not knowingly collect personal information from children under 13. The app contains no chat, social features, or advertising.</p>
-  </section>
+        <h3 class="policy-h3">Leaderboard data</h3>
+        <p class="policy-p">If you set a username inside the app, that username and your weekly score are stored on our Firebase servers to display the group leaderboard. You choose your own username &mdash; do not use your real name if you prefer to stay anonymous.</p>
+      </section>
 
-  <section class="policy-section">
-    <h2>Contact</h2>
-    <p>Questions about this policy? Reach us at: <a href="mailto:privacy@logicloop.app">privacy@logicloop.app</a></p>
-  </section>
+      <!-- What we do NOT collect -->
+      <section class="policy-section">
+        <p class="policy-section-title"><i class="ph ph-prohibit"></i> What we do NOT collect</p>
+        <ul class="policy-list no-collect">
+          <li><i class="ph ph-x"></i> Your name, email address, or phone number</li>
+          <li><i class="ph ph-x"></i> Your location</li>
+          <li><i class="ph ph-x"></i> Your contacts or photos</li>
+          <li><i class="ph ph-x"></i> Payment information</li>
+          <li><i class="ph ph-x"></i> Any data from other apps</li>
+        </ul>
+      </section>
 
-  <div class="notice">
-    This policy may be updated. The latest version is always available at the URL you registered with Google Play.
+      <!-- Third-party services -->
+      <section class="policy-section">
+        <p class="policy-section-title"><i class="ph ph-cloud"></i> Third-party services</p>
+        <table class="policy-table">
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Purpose</th>
+              <th>Privacy policy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Google Firebase (Firestore)</td>
+              <td>Leaderboard data storage</td>
+              <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></td>
+            </tr>
+            <tr>
+              <td>Google Firebase Analytics</td>
+              <td>Anonymous usage analytics</td>
+              <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></td>
+            </tr>
+            <tr>
+              <td>Google Firebase Authentication</td>
+              <td>Anonymous user session</td>
+              <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="policy-p" style="margin-top:14px">All Firebase services are operated by Google LLC under their privacy terms.</p>
+      </section>
+
+      <!-- Data retention -->
+      <section class="policy-section">
+        <p class="policy-section-title"><i class="ph ph-clock"></i> Data retention</p>
+        <ul class="policy-list collect">
+          <li><i class="ph ph-dot-outline"></i> Leaderboard scores are reset weekly.</li>
+          <li><i class="ph ph-dot-outline"></i> Analytics data is retained for 14 months (Google default).</li>
+          <li><i class="ph ph-dot-outline"></i> Anonymous authentication tokens persist until you uninstall the app.</li>
+        </ul>
+      </section>
+
+      <!-- Your rights -->
+      <section class="policy-section">
+        <p class="policy-section-title"><i class="ph ph-scales"></i> Your rights</p>
+        <p class="policy-p">You can delete all your data at any time by uninstalling the app. Because we only store an anonymous ID &mdash; not your identity &mdash; we cannot fulfil data subject requests by name. Uninstalling removes your local device data, and your anonymous leaderboard entry will expire within one weekly reset cycle.</p>
+      </section>
+
+      <!-- Children -->
+      <section class="policy-section">
+        <p class="policy-section-title"><i class="ph ph-smiley"></i> Children</p>
+        <p class="policy-p">This app does not knowingly collect personal information from children under 13. The app contains no chat, social features, or advertising.</p>
+      </section>
+
+      <!-- Contact -->
+      <section class="policy-section">
+        <p class="policy-section-title"><i class="ph ph-envelope"></i> Contact</p>
+        <p class="policy-p" style="margin-bottom:16px">Questions about this policy? Reach us at:</p>
+        <div class="contact-block">
+          <div class="contact-icon"><i class="ph ph-envelope-simple"></i></div>
+          <div>
+            <p class="contact-label">Privacy enquiries</p>
+            <a href="mailto:privacy@logicloop.app" class="contact-value">privacy@logicloop.app</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="notice-box">
+        <i class="ph ph-info"></i>
+        <p>This policy may be updated. The latest version is always available at the URL registered with Google Play.</p>
+      </div>
+
+    </div>
   </div>
 </main>
 
 <footer>
-  &copy; 2026 LogicLoop &nbsp;&middot;&nbsp;
-  <a href="./privacy-policy.html">Privacy Policy</a>
+  <div class="wrap">
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; 2026 LogicLoop</span>
+      <a href="./" class="footer-link"><i class="ph ph-arrow-left"></i> Back to home</a>
+    </div>
+  </div>
 </footer>
 
 </body>

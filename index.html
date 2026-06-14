@@ -4,87 +4,157 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2357: Prime Number Puzzle &mdash; LogicLoop</title>
-  <meta name="description" content="Connect tiles, sum into primes, climb the leaderboard. A fast-paced number puzzle for Android.">
+  <meta name="description" content="Connect tiles, sum into primes, race the clock. A fast-paced number puzzle for Android.">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
 </head>
 <body>
 
 <header>
-  <div class="header-inner">
-    <a class="logo" href="./">
-      <span class="logo-digits"><span>2</span><span>3</span><span>5</span><span>7</span></span>
-      &nbsp;LogicLoop
-    </a>
-    <nav>
-      <a href="./privacy-policy.html">Privacy Policy</a>
-    </nav>
+  <div class="wrap">
+    <div class="header-inner">
+      <a class="logo" href="./">
+        <div class="logo-digits"><span class="d2">2</span><span class="d3">3</span><span class="d5">5</span><span class="d7">7</span></div>
+        <span class="logo-name">LogicLoop</span>
+      </a>
+      <nav>
+        <a href="./privacy-policy.html"><i class="ph ph-shield-check"></i> Privacy Policy</a>
+      </nav>
+    </div>
   </div>
 </header>
 
 <main>
+
+  <!-- Hero -->
   <section class="hero">
-    <div class="hero-badge">Android Game</div>
-    <h1>
-      <span class="n2">2</span><span class="n3">3</span><span class="n5">5</span><span class="n7">7</span><br>
-      Prime Number Puzzle
-    </h1>
-    <p>Connect tiles. Sum into primes. Race the clock and climb the weekly league.</p>
-    <a href="https://play.google.com/store/apps" class="btn">Get on Google Play</a>
-    <a href="./privacy-policy.html" class="btn btn-ghost">Privacy Policy</a>
+    <div class="wrap">
+      <p class="eyebrow"><span class="eyebrow-line"></span> Prime Number Puzzle &nbsp;&middot;&nbsp; Android</p>
+      <div class="hero-digits">
+        <span class="d2">2</span><span class="d3">3</span><span class="d5">5</span><span class="d7">7</span>
+      </div>
+      <h1 class="hero-headline">Think in primes.</h1>
+      <p class="hero-lead">Connect tiles. Sum into primes. Race the clock and climb the weekly league.</p>
+      <div class="cta-row">
+        <a href="https://play.google.com/store/apps" class="btn-primary">
+          <i class="ph ph-arrow-up-right"></i> Get on Google Play
+        </a>
+        <a href="./privacy-policy.html" class="link-ghost">
+          <i class="ph ph-lock"></i> Privacy Policy
+        </a>
+      </div>
+    </div>
   </section>
 
-  <div class="features">
-    <div class="feature-card">
-      <div class="feature-icon">&#9889;</div>
-      <h3>Fast &amp; focused</h3>
-      <p>2-minute sprint sessions designed for commutes and coffee breaks.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">&#129504;</div>
-      <h3>Trains your brain</h3>
-      <p>Build instant prime recognition through daily play and streak tracking.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">&#127941;</div>
-      <h3>Weekly league</h3>
-      <p>Compete in groups of up to 30 players. Resets every Monday.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">&#128274;</div>
-      <h3>No ads. No pay-to-win.</h3>
-      <p>Just primes. Free to play, fully offline capable.</p>
+  <!-- Stats strip -->
+  <div class="stats-strip">
+    <div class="wrap">
+      <div class="stats-inner">
+        <div class="stat">
+          <span class="stat-value">5&times;5</span>
+          <span class="stat-label">Dynamic board</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">30</span>
+          <span class="stat-label">Day streak chain</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">3</span>
+          <span class="stat-label">Game modes</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">Free</span>
+          <span class="stat-label">No ads ever</span>
+        </div>
+      </div>
     </div>
   </div>
 
+  <!-- Game modes -->
   <section class="modes">
-    <h2>Three ways to play</h2>
-    <div class="mode-row">
-      <div class="mode-icon">&#9203;</div>
-      <div>
-        <h3>Timed Sprint</h3>
-        <p>2-minute sprint. Connect prime sums as fast as possible. Your score goes to the weekly leaderboard.</p>
-      </div>
-    </div>
-    <div class="mode-row">
-      <div class="mode-icon">&#129496;</div>
-      <div>
-        <h3>Zen Mode</h3>
-        <p>No timer, no pressure. Play as long as you like and let the scores come naturally.</p>
-      </div>
-    </div>
-    <div class="mode-row">
-      <div class="mode-icon">&#128279;</div>
-      <div>
-        <h3>Chaining Mode</h3>
-        <p>Complete a sequence of 7 prime targets in order. Only the next target is revealed.</p>
+    <div class="wrap">
+      <p class="section-eyebrow">Choose your mode</p>
+      <div class="mode-list">
+
+        <div class="mode-item">
+          <div class="mode-left">
+            <div class="mode-header">
+              <div class="mode-icon"><i class="ph ph-lightning"></i></div>
+              <h2 class="mode-title">Timed Sprint</h2>
+            </div>
+            <p class="mode-body">A 2-minute sprint. Connect tiles whose sum is a prime and score as high as you can before time runs out. Your best score enters the weekly group leaderboard.</p>
+          </div>
+          <span class="mode-tag tag-competitive">Competitive</span>
+        </div>
+
+        <div class="mode-item">
+          <div class="mode-left">
+            <div class="mode-header">
+              <div class="mode-icon"><i class="ph ph-leaf"></i></div>
+              <h2 class="mode-title">Zen Mode</h2>
+            </div>
+            <p class="mode-body">No timer. No pressure. Play for as long as you like, explore the board at your own pace, and let the prime sums come naturally.</p>
+          </div>
+          <span class="mode-tag tag-relaxed">Relaxed</span>
+        </div>
+
+        <div class="mode-item">
+          <div class="mode-left">
+            <div class="mode-header">
+              <div class="mode-icon"><i class="ph ph-link"></i></div>
+              <h2 class="mode-title">Chaining Mode</h2>
+            </div>
+            <p class="mode-body">Complete a sequence of 7 prime targets in order &mdash; but only the next target is revealed. A wrong answer costs a life. Clear all 7 to level up.</p>
+          </div>
+          <span class="mode-tag tag-puzzle">Puzzle</span>
+        </div>
+
       </div>
     </div>
   </section>
+
+  <!-- League -->
+  <section class="league">
+    <div class="wrap">
+      <div class="league-inner">
+        <div class="league-left">
+          <p class="league-label"><i class="ph ph-trophy"></i> Weekly Sprint League</p>
+          <h2 class="league-title">Compete.<br>Reset. Repeat.</h2>
+          <p class="league-body">Groups of up to 30 players form automatically. Scores reset every Monday. The leaderboard activates once enough players are active &mdash; keeping every group genuinely competitive.</p>
+        </div>
+        <div class="league-nums">
+          <div>
+            <span class="l-val">30</span>
+            <span class="l-label">Players per group</span>
+          </div>
+          <div>
+            <span class="l-val">Mon</span>
+            <span class="l-label">Weekly reset</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statement -->
+  <div class="statement">
+    <div class="wrap">
+      <p class="statement-text">
+        <i class="ph ph-prohibit"></i>
+        No ads. No pay-to-win. No accounts required. Just primes.
+      </p>
+    </div>
+  </div>
+
 </main>
 
 <footer>
-  &copy; 2026 LogicLoop &nbsp;&middot;&nbsp;
-  <a href="./privacy-policy.html">Privacy Policy</a>
+  <div class="wrap">
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; 2026 LogicLoop</span>
+      <a href="./privacy-policy.html" class="footer-link"><i class="ph ph-shield-check"></i> Privacy Policy</a>
+    </div>
+  </div>
 </footer>
 
 </body>
